@@ -20,9 +20,11 @@
 .DS_Store
 Thumbs.db
 
-# WordPress specific (for full site)
+# WordPress specific (exclude from GitHub Pages)
+!/pages/
+!_config.yml
 /wp-content/uploads/**
 !wp-content/uploads/readme.txt
 
-# GitHub Pages - only include preview files
-/pages/
+# Exclude WordPress theme folder from preview
+wordpress-theme/
